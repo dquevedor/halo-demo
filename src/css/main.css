@@ -353,6 +353,7 @@ h3 {
 #multiplayer {
     height: 100vh;
     background-image: url(../img/bg-multiplayer.jpeg);
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -533,6 +534,10 @@ footer {
     .info {
         width: 90%;
         margin: 0 auto;
+    }
+
+    .info h2 {
+        font-size: 2.2rem;
     }
 
     #get-the-game .item-store {
